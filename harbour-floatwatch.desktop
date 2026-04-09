@@ -12,9 +12,10 @@ Name=harbour-floatwatch
 Name[de]=harbour-floatwatch
 
 [X-Sailjail]
+Sandboxing=Disabled
 # Replace with your organization as a reverse domain name
 OrganizationName=org.myorg
 # ApplicationName does not have to be identical to Name
 ApplicationName=floatwatch
 # Add the required permissions here
-Permissions=
+Permissions=Bluetooth;Internet

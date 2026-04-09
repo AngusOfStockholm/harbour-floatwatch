@@ -13,8 +13,14 @@
 TARGET = harbour-floatwatch
 
 CONFIG += sailfishapp
+QT += dbus
 
-SOURCES += src/harbour-floatwatch.cpp
+SOURCES += \
+    src/harbour-floatwatch.cpp \
+    src/vescbackend.cpp
+
+HEADERS += \
+    src/vescbackend.h
 
 DISTFILES += qml/harbour-floatwatch.qml \
     qml/cover/CoverPage.qml \
